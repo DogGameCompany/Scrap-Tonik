@@ -1,0 +1,46 @@
+body{
+	background-color: #ededed;
+}
+
+/* contenue sous forme de boîte */
+
+div#content div{
+	display: inline-block;
+	font-family: gugi;
+}
+
+div.rightbox{
+	color: red;
+}
+
+/* Fin */
+
+h1.titre{
+	background-color: #b2bec3;
+	width: 250px;
+	padding: 20px;
+	margin-left: 490px;
+}
+
+h1.titre a{
+	text-decoration: none;
+	color: #ededed;
+}
+
+h1.titre a:hover{
+	color: #636e72;
+}
+
+h2.lien a{
+	color: #ededed;
+	text-decoration: none;
+	margin-left: 300px;
+	background-color: blue;
+	padding: 15px
+}
+
+h2.lien a:hover{
+	color: blue;
+	background-color: #ededed;
+	transition: 0.3s;
+}
