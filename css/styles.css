@@ -1,50 +1,52 @@
+
 body{
-	background-color: #ededed;
+	background-color : #ededed;
 }
 
 /* contenue sous forme de boîte */
-
 div#content div{
-	display: inline-block;
-	font-family: gugi;
+	display     : inline-block;
+	font-family : gugi;
 }
 
 div.rightbox{
-	color: red;
+	color : red;
 }
-
 /* Fin */
 
 h1.titre{
-	background-color: #b2bec3;
-	width: 250px;
-	padding: 20px;
-	margin: auto;
-	margin-top: 20px;
-	font-family: baloo bhai;
+	width            : 250px;
+	margin           : auto;
+	margin-top       : 20px;
+	padding          : 20px;
+
+	background-color : #b2bec3;
+	font-family      : baloo bhai;
 }
 
 h1.titre a{
-	text-decoration: none;
-	color: #ededed;
+	color           : #ededed;
+	text-decoration : none;
 }
 
 h1.titre a:hover{
-	color: #636e72;
+	color : #636e72;
 }
 
 h2.lien a{
-	color: #ededed;
-	text-decoration: none;
-	margin-left: 300px;
-	background-color: blue;
-	padding: 15px;
-	font-family: roboto;
+	margin-left      : 300px;
+	padding          : 15px;
+
+	background-color : blue;
+	font-family      : roboto;
+	color            : #ededed;
+	text-decoration  : none;
 }
 
 h2.lien a:hover{
-	color: blue;
-	background-color: #ededed;
-	transition: 0.3s;
-	border: 2px solid blue;
+	background-color : #ededed;
+	color            : blue;
+	border           : 2px solid blue;
+
+	transition       : 0.3s;
 }
